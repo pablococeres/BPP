@@ -111,7 +111,6 @@ try:
     informe() 
 except:
     print('fichero no encontrado')
-
 print(df1)
 print(df2)
 
@@ -120,5 +119,4 @@ plt.xticks(rotation=50)
 plt.bar(df1.index,df1["Ingresos"])
 plt.gcf().subplots_adjust(bottom=0.20)
 plt.savefig('IngresosAnuales.png')
-
 #plt.show()
