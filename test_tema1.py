@@ -15,14 +15,15 @@ def test_calculos():
     assert tema1.calculos(elmes) == tema1.informe()
 
 def test_informe():
+
     maxgasto = 'Abril'
     maxahorro = 'Enero'
     mediagasto = -24732
     gastototal = -296791
     ingresototal = 280961
+    
     assert maxgasto == tema1.informe.maxgasto
     assert maxahorro == tema1.informe.maxahorro
     assert mediagasto == tema1.informe.mediagasto
     assert gastototal == tema1.informe.gastototal
     assert ingresototal == tema1.informe.ingresototal
-
