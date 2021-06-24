@@ -9,4 +9,5 @@ def es_primo(n):
 
 primos = list(filter(es_primo, mi_lista))
 
+
 print(primos)
