@@ -120,4 +120,5 @@ plt.xticks(rotation=50)
 plt.bar(df1.index,df1["Ingresos"])
 plt.gcf().subplots_adjust(bottom=0.20)
 plt.savefig('IngresosAnuales.png')
+
 #plt.show()
